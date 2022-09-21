@@ -170,6 +170,18 @@
       background: -webkit-linear-gradient(left, #04006e, #2838fb);
     }
 
+        /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
     @media (max-width: 767px) {
       .mhrd img {
         margin-top: 4px !important;
@@ -270,6 +282,9 @@
       r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+
+
+
   </script>
 
   <style>
